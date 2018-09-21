@@ -11,6 +11,18 @@ public class JekeinstestApplicationTests {
 
 	@Test
 	public void contextLoads() {
+		System.out.println("jekeins test!!!!");
+	}
+	@Test
+	public void test1() {
+		System.out.println("test1 start !!!!");
+		Integer a = 0;
+		Integer b = 1/a;
 	}
 
+	@Test
+	public Boolean test2() {
+		System.out.println("test2 start!!!!");
+		return true;
+	}
 }
